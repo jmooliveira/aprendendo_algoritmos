@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int selection_sort(int *list);
+void selection_sort(int *list);
 
 int main(void)
 {
@@ -19,7 +19,7 @@ int main(void)
     return 0;
 }
 
-int selection_sort(int *list)
+void selection_sort(int *list)
 {
     int lower_value;
     int indice;
